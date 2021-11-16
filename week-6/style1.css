@@ -2,13 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: lightgray;
     height: 35px;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 .info {
     display: flex;
-    background-color: darkseagreen;
+    background-color: rgb(212, 236, 212);
+    text-align: center;
+    font-weight: bolder;
 }
 
 .aside {
@@ -16,30 +20,42 @@
 }
 
 .main__info {
+    border: 1px solid red;
     background-color: cornsilk;
-    height: 150px;
+    height: 250px;
     width: 70%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 .item1,
 .item2,
 .item3 {
+    border: 1px solid red;
     background-color: yellow;
     height: 30px;
-    width: 300px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
-    background-color: darkgray;
+    justify-content: space-around;
+    background-color: lightgray;
     align-items: center;
-    height: 60px;
+    height: 80px;
 }
 
 .footer__sec {
     background-color: ivory;
-    margin: 10px;
     height: 30px;
+    padding: 10px;
+    font-weight: bolder;
 }
