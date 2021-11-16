@@ -20,26 +20,40 @@
 }
 
 .main__info {
-    border: 1px solid red;
     background-color: cornsilk;
-    height: 250px;
+    height: 150px;
     width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
     padding: 10px;
     font-weight: bolder;
 }
 
+.content__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.item1 {
+    width: 45%;
+    margin: 5px;
+}
+
+.item2 {
+    width: 45%;
+    margin: 5px;
+}
+
+.item3 {
+    width: 95%;
+    margin: 5px;
+}
+
 .item1,
 .item2,
 .item3 {
-    border: 1px solid red;
     background-color: yellow;
-    height: 30px;
-    width: 200px;
     text-align: center;
     padding: 10px;
     font-weight: bolder;
