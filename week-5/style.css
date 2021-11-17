@@ -1,0 +1,75 @@
+body {
+    background: #EEEFF1;
+}
+
+#logo {
+    font-family: Revalia, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+    padding: 50px;
+    margin: 50px;
+}
+
+nav :hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 450px;
+}
+
+.button {
+    display: flex;
+    color: white;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.head {
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #000000;
+}
