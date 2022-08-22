@@ -11,6 +11,7 @@
 
 <body>
     <h1>Регистрация</h1>
+    <form action="">
     <div>
         <p>Имя</p>
         <input type="text" placeholder="Ваше имя" id="firstName">
@@ -21,11 +22,11 @@
     </div>
     <div>
         <p>Адрес электронной почты</p>
-            <input type="email" placeholder="Адрес э/п" id="email">
+            <input type="email" placeholder="Адрес э/п" id="mailbox">
     </div>
     <div>
         <p>Номер телефона</p>
-            <input type="tel" placeholder="Телефон" id="number">
+            <input type="tel" placeholder="Телефон без +7" id="number">
     </div>
     <div>
         <p>Пароль</p>
@@ -35,7 +36,10 @@
         <p>Подтвердите пароль</p>
             <input type="password" placeholder="Повторите пароль" id="password2">
     </div>
-    <button type="submit">Зарегистрироваться</button>
+</form>
+<div id="Error"></div>
+    <button type="submit" onclick="checkTel()">Зарегистрироваться</button>
+
     <script src="registration.js"></script>
 </body>
 
