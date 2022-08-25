@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="./registration.js">
+    <link rel="stylesheet" href="./registration.css">
+    <link rel="stylesheet" href="./normlize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <h1>Регистрация</h1>
-    <form action="">
+    <form class="formReg">
     <div>
         <p>Имя</p>
         <input type="text" placeholder="Ваше имя" id="firstName">
@@ -38,10 +41,9 @@
             <input type="password" placeholder="Повторите пароль" id="password2">
     </div>
     <div id="passError"></div>
-</form>
 <div id="errorMessage"></div>
-    <button type="submit" onclick="check()">Зарегистрироваться</button>
-
+    <div type="button" class="buttonReg" onclick="check()">Зарегистрироваться</div>
+</form>
     <script src="registration.js"></script>
 </body>
 
