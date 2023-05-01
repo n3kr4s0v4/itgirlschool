@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос</title>
+</head>
+<body style="background-color: rgb(203, 242, 253)">
+    <h1>Опрос для владельцев котиков</h1>
+    <form>
+
+    <label for="petname">Кличка питомца</label> <br>
+    <input type="text" id="petname"><br>
+
+    <label for="yourName">Имя владельца</label><br>
+    <input type="text" id="yourName"><br>
+
+    <label for="contact">Контакты владельца</label><br>
+    <input type="text" id="contact"><br>
+    
+    <label for="breed">Порода питомца</label> <br>
+    <select id="breed">
+        <option value="1">Абиссинская</option>
+        <option value="2">Бенгальская</option>
+        <option value="3">Сфинкс</option>
+        <option value="4">Манчкин</option>
+        <option value="5">Персидская</option>
+        <option value="6">Шотландская вислоухая</option>
+        <option value="7">Бобтейл</option>
+        <option value="8">Корниш рекс</option>
+        <option value="9">Акринская</option>
+        <option value="10">Мейн-кун</option>
+    </select> <br>
+
+<p>Чем питается</p>
+<label for="food1">
+<input type="checkbox" name="food" id="food1" value="food1">Сухой корм<br>
+</label>
+<label for="food2">
+<input type="checkbox" name="food" id="food2" value="food2">Влажный корм <br>
+</label>
+<label for="food3">
+<input type="checkbox" name="food" id="food3" value="food3">Натуральный корм <br>
+</label>
+
+    <p>Самец или самка</p>
+    <input type="radio" id="sexm" name="sex" value="m">
+    <label for="sexm">Самец <br></label>
+    <input type="radio" id="sexf" name="sex" value="f">
+    <label for="sexf">Самка </label><br>
+
+    <p>Комментарий владельца</p>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+
+    <label for="photo"></label> Фото питомца <br>
+<input type="file" id="photo"> <br>
+
+    <input type="button" value="Сохранить">
+
+    </form>
+</body>
+</html>
