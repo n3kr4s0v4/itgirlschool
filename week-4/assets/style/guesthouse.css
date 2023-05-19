@@ -1,0 +1,115 @@
+header {
+	background-color: #52503b;
+}
+
+nav :hover {
+	text-decoration: underline;
+}
+
+#logo {
+	position: relative;
+	height: 45px;
+	width: 128px;
+	left: 120px;
+	top: 35px;
+}
+
+.menu,
+.menu1,
+.menu2 {
+	text-decoration: none;
+	height: 20px;
+	color: #ffffff;
+	position: relative;
+}
+
+.menu,
+.menu1,
+.menu2,
+.textinfo,
+#pushme {
+	font-family: "Montserrat";
+	font-style: normal;
+	text-align: center;
+}
+
+.menu {
+	left: 570px;
+}
+
+.menu1 {
+	left: 620px;
+}
+
+.menu2 {
+	left: 670px;
+}
+
+#pushme {
+	position: relative;
+	color: #52503b;
+	width: 117px;
+	height: 35px;
+	left: 1203px;
+	top: -30px;
+	border-radius: 6px;
+	border: 0.5px solid #52503b;
+}
+
+#pushme:active {
+	color: rgb(184, 69, 255);
+}
+
+.info {
+	background-image: url(/week-4/assets/img/guest.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 800px;
+}
+
+#infologo {
+	height: 90px;
+	width: 256px;
+	left: 592px;
+	top: 265px;
+	border-radius: 0px;
+	position: relative;
+}
+
+.textinfo1 {
+	position: absolute;
+	width: 1174px;
+	height: 106px;
+	left: calc(50% - 1174px / 2);
+	top: 450px;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 53px;
+	color: #ffffff;
+}
+
+.textinfo2 {
+	position: absolute;
+	width: 291px;
+	height: 20px;
+	left: calc(50% - 291px / 2 + 0.5px);
+	top: 600px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.vector {
+	position: relative;
+	top: 590px;
+	left: 700px;
+}
+
+.line {
+	position: relative;
+	top: 558px;
+	left: 677px;
+}
