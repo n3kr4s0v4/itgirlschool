@@ -2,30 +2,33 @@ header {
 	background-color: #52503b;
 }
 
-nav :hover {
-	text-decoration: underline;
-}
-
 #logo {
-	position: relative;
+	display: flex;
 	height: 45px;
 	width: 128px;
-	left: 120px;
-	top: 35px;
+	margin-right: 50px;
 }
 
-.menu,
-.menu1,
-.menu2 {
+.head {
+	display: flex;
+	justify-content: space-around;
+	height: 80px;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
 	text-decoration: none;
 	height: 20px;
 	color: #ffffff;
-	position: relative;
+	margin: 10px;
 }
 
 .menu,
-.menu1,
-.menu2,
 .textinfo,
 #pushme {
 	font-family: "Montserrat";
@@ -33,25 +36,10 @@ nav :hover {
 	text-align: center;
 }
 
-.menu {
-	left: 570px;
-}
-
-.menu1 {
-	left: 620px;
-}
-
-.menu2 {
-	left: 670px;
-}
-
 #pushme {
-	position: relative;
 	color: #52503b;
 	width: 117px;
 	height: 35px;
-	left: 1203px;
-	top: -30px;
 	border-radius: 6px;
 	border: 0.5px solid #52503b;
 }
@@ -65,35 +53,36 @@ nav :hover {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #infologo {
-	height: 90px;
-	width: 256px;
-	left: 592px;
-	top: 265px;
-	border-radius: 0px;
-	position: relative;
+	display: flex;
+	align-self: center;
+	margin-top: 25vh;
+}
+
+.textinfo1,
+.textinfo2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .textinfo1 {
-	position: absolute;
-	width: 1174px;
-	height: 106px;
-	left: calc(50% - 1174px / 2);
-	top: 450px;
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 53px;
 	color: #ffffff;
+	margin-top: 5vh;
+	margin-left: 200px;
 }
 
 .textinfo2 {
-	position: absolute;
-	width: 291px;
-	height: 20px;
-	left: calc(50% - 291px / 2 + 0.5px);
-	top: 600px;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
@@ -103,13 +92,13 @@ nav :hover {
 }
 
 .vector {
-	position: relative;
-	top: 590px;
-	left: 700px;
+	width: 33px;
+	height: 52px;
 }
 
 .line {
+	width: 10px;
+	height: 15px;
 	position: relative;
-	top: 558px;
-	left: 677px;
+	top: 4vh;
 }

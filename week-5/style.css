@@ -1,75 +1,85 @@
-body {
-    background: #EEEFF1;
-}
-
-#logo {
-    font-family: Revalia, cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 60px;
-    text-align: center;
-    color: #34547A;
-    padding: 50px;
-    margin: 50px;
-}
-
-nav :hover {
-    text-decoration: underline;
-}
-
-.menu {
-    display: inline-flex;
-    justify-content: space-between;
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 16px;
-    letter-spacing: 0.1em;
-}
-
-.text {
-    display: flex;
-    justify-content: center;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
-    width: 450px;
-}
-
-.button {
-    display: flex;
-    color: white;
-    justify-content: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+main {
+	display: flex;
+	height: 25vh;
 }
 
 .head {
-    display: flex;
-    height: 30vh;
-    align-items: center;
-    justify-content: center;
+	justify-content: center;
+	align-items: center;
+	height: 8vh;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 35px;
-    color: #000000;
+.head,
+footer {
+	background-color: rgb(226, 226, 226);
+	display: flex;
+	font-weight: bolder;
+}
+
+.mainpart {
+	background-color: cornsilk;
+	display: flex;
+	font-weight: bolder;
+	width: 70vw;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.item_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item1,
+.item2,
+.item3 {
+	background-color: rgb(250, 247, 167);
+	display: flex;
+	font-weight: bolder;
+	margin: 5px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	height: 4vh;
+}
+
+.item1,
+.item2 {
+	width: 35%;
+}
+
+.item3 {
+	width: 85%;
+}
+
+.aside {
+	background-color: rgb(207, 246, 205);
+	display: flex;
+	font-weight: bolder;
+	width: 30vw;
+	justify-content: center;
+}
+
+.aside_text {
+	margin-top: 5%;
+}
+
+footer {
+	justify-content: space-around;
+	align-self: center;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+	background-color: rgb(239, 239, 239);
+	height: 5vh;
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
 }
