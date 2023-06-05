@@ -1,0 +1,108 @@
+html {
+    background-image: url(/week-6/grid/assets/img/Rectangle35.jpg);
+    background-size: 100%;
+    font-family: 'M PLUS 1p';
+}
+
+.logotype {
+    grid-area: lgt;
+align-self: center;
+margin: 60px;
+    width: 131px;
+height: 21px;
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    display: grid;
+    grid-template-areas: "lgt nav";
+    grid-template-columns: 1fr 600px;
+    grid-template-rows: 110px;
+}
+
+.faceCream{
+    grid-area: fc;
+}
+
+.main__info {
+    grid-area: info;
+    text-align: center;
+}
+
+.bodyCream {
+    grid-area: bc;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "fc info bc";
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 1fr;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+justify-content: space-between;
+margin: 40px;
+}
+
+.menu {
+    text-decoration: none;
+    padding: 20px;
+    color:  #122947;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.cream1 {
+    display: flex;
+justify-content: end;
+margin: 30px;
+}
+
+.cream2 {
+display: flex;
+margin: 30px;
+}
+
+#logo {
+    width: 260px;
+height: 40px;
+margin: 30px;
+}
+
+.textMain {
+width: 274px;
+height: 40px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-left: 100px;
+}
+
+.pushMe {
+    width: 141px;
+height: 41px;
+border: 1px solid #B3BAC1;
+border-radius: 2px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+margin: 40px;
+}
+
+.textFaceCream {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textBodyCream {
+    display: flex;
+    justify-content: space-around;
+}

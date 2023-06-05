@@ -17,8 +17,7 @@ footer {
 }
 
 .mainpart {
-	background-color: cornsilk;
-	display: flex;
+
 	font-weight: bolder;
 	width: 70vw;
 	flex-direction: column;
@@ -76,7 +75,7 @@ footer {
 .section2,
 .section3,
 .section4 {
-	background-color: rgb(239, 239, 239);
+
 	height: 5vh;
 	margin: 5px;
 	padding: 5px;
