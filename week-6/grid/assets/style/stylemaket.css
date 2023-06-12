@@ -1,6 +1,7 @@
 html {
     background-image: url(/week-6/grid/assets/img/Rectangle35.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'M PLUS 1p';
 }
 
@@ -100,9 +101,11 @@ margin: 40px;
 .textFaceCream {
     display: flex;
     justify-content: space-around;
+    margin-left: 150px;
 }
 
 .textBodyCream {
     display: flex;
     justify-content: space-around;
+    margin-right: 100px;
 }
