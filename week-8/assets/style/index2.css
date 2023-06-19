@@ -1,0 +1,126 @@
+.header__text {
+	display: flex;
+	background-image: url(/week-8/assets/img/browser.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 5vh;
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	text-align: center;
+	opacity: 0.5;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.menu-logo {
+	display: flex;
+}
+
+.menu-logo__text {
+	font-family: "Jost", sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.menu-button {
+	background-color: #5222d0;
+	color: white;
+	border-radius: 100px;
+	width: 130px;
+	height: 48px;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Jost", sans-serif;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.main {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: "info pic";
+	border: 3 solid rgb(43, 174, 226);
+}
+
+.info {
+	grid-area: info;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-text__fisrt {
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+
+	padding-left: 10vw;
+}
+
+.info-text__second {
+	font-family: "Roboto Slab";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 160%;
+
+	width: 30vw;
+	padding-left: 10vw;
+}
+
+.info-button {
+	padding-left: 10vw;
+}
+
+.info-button__text {
+	display: flex;
+	background-color: #5222d0;
+	color: white;
+	border-radius: 100px;
+	width: 147px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "Jost", sans-serif;
+	padding: 10px;
+}
+
+.menu-footer {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	height: 10vh;
+	align-items: end;
+	padding-bottom: 15px;
+	width: 30vw;
+	padding-left: 10vw;
+}
+
+.menu-footer__item {
+	text-decoration: none;
+	color: #5222d0;
+}
+
+.pic-info {
+	grid-area: pic;
+	height: 90vh;
+}
+
+.pic-info__img {
+	height: 90vh;
+}
