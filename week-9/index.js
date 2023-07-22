@@ -6,7 +6,7 @@ console.log (time);
 
 console.log ('Старт поездки. Осталось минут: ' + time);
 
-time = 34 - 15;
+time -= 15;
 
 console.log ('Немного сторис в соцсетях. Осталось минут: ' + time);
 
