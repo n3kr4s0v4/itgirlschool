@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(217, 246, 245);
+}
+
+.gallery__title {
+	display: flex;
+	justify-content: center;
+	font-family: "Amatic SC";
+}
+
+.gallery__img {
+	display: flex;
+	justify-content: center;
+	img {
+		width: 30vw;
+	}
+}
+
+.gallery--button {
+	background-color: rgb(49, 129, 241);
+	color: #ffff;
+	border-color: rgb(49, 129, 241);
+	border-radius: 1vw;
+	padding: 1.5vw;
+	margin: 1.5vw;
+	font-weight: 400;
+	font-size: 1.5vw;
+}
+
+.gallery__button {
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto+Slab:wght@300&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="/week-10/gallery/gallery.css" />
+		<title>Gallery</title>
+	</head>
+	<body>
+		<main class="gallery">
+			<h1 class="gallery__title">Котики</h1>
+			<div class="gallery__img">
+				<img
+					id="gallery__elem"
+					src="/week-10/gallery/img/cat4.jpg"
+					alt="cat" />
+			</div>
+			<div class="gallery__button">
+				<button
+					onclick="previousImg()"
+					class="gallery--button">
+					назад
+				</button>
+				<button
+					onclick="nextImg()"
+					class="gallery--button">
+					вперёд
+				</button>
+			</div>
+		</main>
+		<script src="/week-10/gallery/gallery.js"></script>
+	</body>
+</html>
