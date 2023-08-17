@@ -1,0 +1,48 @@
+body {
+	background-color: #ded7fc;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container__title {
+	text-align: center;
+	font-family: Abel;
+	color: #4d2b4b;
+}
+
+.container__form {
+	display: flex;
+	justify-content: center;
+}
+
+.container__button {
+	color: #4d2b4b;
+	background-color: #5ce8fa;
+	border-color: #5ce8fa;
+	margin: 1vw;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.container__input {
+	margin: 1vw;
+	font-family: Montserrat;
+}
+.todolist {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.additem {
+	list-style: none;
+	font-family: Montserrat;
+}
+
+.itemcheck {
+	opacity: 0.5;
+	text-decoration: line-through;
+}
