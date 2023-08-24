@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="/week-12/imt/assets/style/index.css" />
+		<title>Калькулятор ИМТ</title>
+	</head>
+	<body>
+		<section class="calc">
+			<p class="calc__title">Калькулятор ИМТ</p>
+			<div class="calc__weight">
+				<label
+					for="weight"
+					class="weight__title"
+					>Вес (кг):</label
+				>
+				<input
+					type="number"
+					id="weight"
+					class="weight__num" />
+			</div>
+			<div class="calc__height">
+				<label
+					for="height"
+					class="height__title"
+					>Рост (см):</label
+				>
+				<input
+					id="height"
+					class="height__num" />
+			</div>
+			<button class="calc__button">Рассчитать ИМТ</button>
+			<p class="calc__result"></p>
+			<p class="result__info"></p>
+		</section>
+		<script src="/week-12/imt/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="/week-12/comments/assets/style/index.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+			rel="stylesheet" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Сервис комментариев со спам фильтром</h1>
+		<section class="service-container">
+			<div class="container__comments">
+				<p class="comm__title">Оставьте Ваш комментарий</p>
+				<label
+					for="userName"
+					class="comm__text"
+					>Введите Ваше имя:</label
+				>
+				<input
+					class="comm__info"
+					type="text"
+					id="userName" />
+				<label
+					for="userAvatar"
+					class="comm__text"
+					>Введите ссылку Вашего аватара:</label
+				>
+				<input
+					class="comm__info"
+					type="url"
+					id="userAvatar" />
+				<label
+					for="userComm"
+					class="comm__text"
+					>Оставьте комментарий:</label
+				>
+				<textarea
+					class="comm__info"
+					name=""
+					id="userComm"
+					cols="30"
+					rows="10"></textarea>
+				<button class="comm__button">Отправить</button>
+			</div>
+			<div class="chat">
+				<p class="chat__title">Чат</p>
+				<div class="chat__info">
+					<img
+						src=""
+						alt="" />
+					<p class="chat__name"></p>
+				</div>
+				<div class="chat__text">
+					<p class="text__comm"></p>
+				</div>
+			</div>
+		</section>
+		<script src="/week-12/comments/index.js"></script>
+	</body>
+</html>

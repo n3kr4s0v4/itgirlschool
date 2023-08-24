@@ -1,0 +1,85 @@
+body {
+  background-color: #050c2b;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__comments,
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
+.chat {
+  display: flex;
+  justify-self: start;
+}
+
+.comm__title,
+.chat__title {
+  color: #4a50ff;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin: 1vw;
+}
+
+.comm__info {
+  background-color: #050c2b;
+  border: 0.3vw dashed #4a50ff;
+  margin: 1vw;
+  color: white;
+}
+
+.comm__text {
+  margin: 1vw;
+}
+
+.comm__button {
+  background-color: #4a50ff;
+  color: white;
+  border: 1vw solid #4a50ff;
+  margin: 1vw;
+  width: 20vw;
+  font-family: "Montserrat";
+}
+
+.chat__info {
+  display: flex;
+  justify-content: flex-start;
+}
+.chat__info img {
+  width: 10vw;
+  margin: 1vw;
+}
+.chat__info .chat__name {
+  color: #4a50ff;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  font-size: 2vw;
+  font-weight: 500;
+  font-family: "Montserrat";
+  margin: 1vw;
+}
+
+.chat__text {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1vw;
+}
+.chat__text .text__comm {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chat__border {
+  border-bottom: 0.3vw dashed #4a50ff;
+  margin: 1vw;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,93 @@
+$font: "Montserrat";
+$title-color: #4a50ff;
+$bg: #050c2b;
+$white: #ffff;
+
+body {
+	background-color: $bg;
+	color: $white;
+	font-family: $font;
+}
+
+.service-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container__comments,
+.chat {
+	display: flex;
+	flex-direction: column;
+	width: 45vw;
+}
+
+.chat {
+	display: flex;
+	justify-self: start;
+}
+
+.comm__title,
+.chat__title {
+	color: $title-color;
+	font-size: 2.5vw;
+	font-weight: 600;
+	margin: 1vw;
+}
+
+.comm__info {
+	background-color: $bg;
+	border: 0.3vw dashed $title-color;
+	margin: 1vw;
+	color: $white;
+}
+
+.comm__text {
+	margin: 1vw;
+}
+
+.comm__button {
+	background-color: $title-color;
+	color: $white;
+	border: 1vw solid $title-color;
+	margin: 1vw;
+	width: 20vw;
+	font-family: $font;
+}
+
+.chat__info {
+	display: flex;
+	justify-content: flex-start;
+
+	img {
+		width: 10vw;
+		margin: 1vw;
+	}
+
+	.chat__name {
+		color: $title-color;
+		display: flex;
+		justify-content: flex-start;
+		align-self: center;
+		font-size: 2vw;
+		font-weight: 500;
+		font-family: $font;
+		margin: 1vw;
+	}
+}
+
+.chat__text {
+	display: flex;
+	justify-content: flex-start;
+	margin: 1vw;
+
+	.text__comm {
+		color: $white;
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+.chat__border {
+	border-bottom: 0.3vw dashed $title-color;
+	margin: 1vw;
+}
