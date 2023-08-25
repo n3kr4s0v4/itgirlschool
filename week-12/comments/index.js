@@ -7,27 +7,21 @@ const chatName = document.querySelector('.chat__name');
 const comment = document.querySelector('.text__comm');
 const chat = document.querySelector('.chat__text');
 
-function checkInput () {
+function checkSpam () {
     if (userComm.value === "" && userAvatar.value === "" && userName.value === "") {
         alert('Заполните поля!');
     }
 
     else if (userComm.value === "") {
         alert('Не все поля заполнены!');
-        userName.value = "";
-        userAvatar.value = "";
     }
 
     else if (userName.value === "") {
         alert('Не все поля заполнены!');
-        userAvatar.value = "";
-        userComm.value = "";
     }
 
     else if (userAvatar.value === "") {
         alert('Не все поля заполнены!');
-        userComm.value = "";
-        userName.value = "";
         comment.textContent = "";
     }
 
@@ -49,4 +43,4 @@ function checkInput () {
     }
 }
 
-buttonClick.addEventListener('click', checkInput);
+buttonClick.addEventListener('click', checkSpam);
