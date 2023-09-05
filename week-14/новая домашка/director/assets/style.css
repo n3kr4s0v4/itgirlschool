@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin: 2vw;
+}
+
+.directors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dirBlock {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+  justify-content: space-between;
+}
+
+.dirInfo,
+.dirName,
+.textTitle,
+.filmList {
+  display: flex;
+  padding: 2vw;
+  border: 1px solid white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dirLink {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+.textTitle,
+.filmList {
+  margin: 0 2vw 0 2vw;
+  align-items: center;
+}
+
+.dirInfo,
+.filmList {
+  font-size: 2.5vw;
+}/*# sourceMappingURL=style.css.map */
