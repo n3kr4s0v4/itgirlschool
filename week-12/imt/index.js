@@ -20,16 +20,18 @@ function calculateBMI () {
     const heightNum = +height.value / meter;
     const heightSqr = Math.pow(heightNum, power);
     const resultSub = weightNum / heightSqr;
-    result = Math.round(resultSub * 100) / 100; 
+    const result = Math.round(resultSub * 100) / 100; 
 
     if(weight.value === "" && height.value === "") {
         alert('Введите значение!');
     }
     else if(weight.value === ""){
         alert('Введите значение!');
+        info.textContent = "";
     }
     else if(height.value === ""){
         alert('Введите значение!');
+        info.textContent = "";
     }
     else {
         total.textContent = text + result;
@@ -69,4 +71,4 @@ function sayInfo(){
 }
 
 buttonCalc.addEventListener('click', calculateBMI);
-buttonCalc.addEventListener('click', sayInfo)
+buttonCalc.addEventListener('click', sayInfo);

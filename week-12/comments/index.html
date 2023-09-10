@@ -18,6 +18,21 @@
 		<section class="service-container">
 			<div class="container__comments">
 				<p class="comm__title">Оставьте Ваш комментарий</p>
+				<form>
+					<p class="title__name">Показывать Ваше имя?</p>
+					<input
+						type="radio"
+						name="answer"
+						id="yes"
+						value="1" />
+					<label for="yes">Да</label>
+					<input
+						type="radio"
+						name="answer"
+						id="not"
+						value="2" />
+					<label for="not">Нет</label>
+				</form>
 				<label
 					for="userName"
 					class="comm__text"
@@ -51,11 +66,14 @@
 			</div>
 			<div class="chat">
 				<p class="chat__title">Чат</p>
-				<div class="chat__info">
-					<img
-						src=""
-						alt="" />
-					<p class="chat__name"></p>
+				<div class="chat__block">
+					<div class="chat__info">
+						<img
+							src=""
+							alt="" />
+						<p class="chat__name"></p>
+					</div>
+					<div class="date__comm"></div>
 				</div>
 				<div class="chat__text">
 					<p class="text__comm"></p>

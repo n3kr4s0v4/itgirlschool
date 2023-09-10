@@ -1,0 +1,28 @@
+body {
+	background-image: url(../img/hb.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.day__hb {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.day__button {
+	margin-left: 2vw;
+	background-color: #ffd9fe;
+	border: #ffd9fe;
+	border-radius: 0.5vw;
+}
+
+.day__total {
+	background-color: #ffedfe;
+	margin: 2vw;
+}

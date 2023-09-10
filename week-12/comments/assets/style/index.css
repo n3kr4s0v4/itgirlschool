@@ -82,4 +82,22 @@ body {
 .chat__border {
   border-bottom: 0.3vw dashed #4a50ff;
   margin: 1vw;
+}
+
+.title__name {
+  margin: 1vw;
+}
+
+.chat__block {
+  display: flex;
+}
+.chat__block .date__comm {
+  display: flex;
+  font-size: 1.5vw;
+  color: #4a50ff;
+  font-weight: 500;
+  font-family: "Montserrat";
+  justify-content: end;
+  margin-left: 9vw;
+  align-self: center;
 }/*# sourceMappingURL=index.css.map */

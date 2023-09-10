@@ -48,25 +48,25 @@ const mainElem = document.querySelector('.directors');
 
 for (let i = 0; i < 7; i++){
     const dirBlock = document.createElement('div');
-    dirBlock.classList.add('class', 'dirBlock');
+    dirBlock.classList.add('dirBlock');
     mainElem.append(dirBlock);
 
     const dirName = document.createElement('div');
-    dirName.classList.add('class', 'dirName');
+    dirName.classList.add('dirName');
     dirName.textContent = directors[i]?.name;
     dirBlock.append(dirName);
 
     const dirInfo = document.createElement('div');
-    dirInfo.classList.add('class', 'dirInfo')
+    dirInfo.classList.add('dirInfo')
     dirBlock.append(dirInfo);
 
     const dirRole = document.createElement('div');
     dirRole.textContent = directors[i]?.career;
-    dirRole.classList.add('class', 'dirRole');
+    dirRole.classList.add('dirRole');
     dirInfo.append(dirRole);
 
     const dirLink = document.createElement('a');
-    dirLink.classList.add('class', 'dirLink');
+    dirLink.classList.add('dirLink');
     dirLink.textContent = "Фильмография";
     dirLink.setAttribute('href', 'directors[i].films');
     dirInfo.append(dirLink);
@@ -76,12 +76,12 @@ const topFilmsList = directors.map(function(film){
     return film.top_rated_film;
 });
 const textTitle = document.createElement('div');
-textTitle.classList.add('class', 'textTitle');
+textTitle.classList.add('textTitle');
 textTitle.textContent = "Лучшие фильмы этих режиссёров";
 mainElem.append(textTitle);
 
 const filmList = document.createElement('div');
-filmList.classList.add('class', 'filmList');
+filmList.classList.add('filmList');
 filmList.textContent = topFilmsList.join('; ');
 mainElem.append(filmList);
 

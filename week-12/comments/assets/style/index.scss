@@ -91,3 +91,22 @@ body {
 	border-bottom: 0.3vw dashed $title-color;
 	margin: 1vw;
 }
+
+.title__name {
+	margin: 1vw;
+}
+
+.chat__block {
+	display: flex;
+
+	.date__comm {
+		display: flex;
+		font-size: 1.5vw;
+		color: $title-color;
+		font-weight: 500;
+		font-family: $font;
+		justify-content: end;
+		margin-left: 9vw;
+		align-self: center;
+	}
+}
