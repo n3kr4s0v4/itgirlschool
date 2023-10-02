@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Montserrat:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #c0f1fcf4;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #590156f4;
+    font-size: 2vw;
+    font-family: Fira Sans;
+}
+
+.form__block {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+label,
+input,
+select,
+button,
+span {
+    font-size: 1.5vw;
+    margin: 0.2vw;
+}
+
+span {
+    color: red;
+}
+
+input:valid {
+    border: #590156f4 2px dotted;
+    background-color: #d4f3fcf4;
+}
+
+input:invalid:required {
+    border: 2px dotted red;
+}
+
+select {
+    width: 19vw;
+    background-color: #d4f3fcf4;
+}
+
+button {
+    background-color: #590156f4 ;
+    border: #590156f4 ;
+    border-radius: 20%;
+    color: white;
+    padding: 1vw;
+}
+
+.error-message{
+    border: 1px solid red;
+}

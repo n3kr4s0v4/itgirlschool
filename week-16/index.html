@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="/week-16/assets/index.css" />
+		<title>Регистрация</title>
+	</head>
+	<body>
+		<section class="form__block">
+			<h1>Форма регистрации</h1>
+			<form
+				class="userForm"
+				name="userForm"
+				novalidate>
+				<label for="userName">Ваше имя:</label><br />
+				<input
+					type="text"
+					id="userName"
+					placeholder="Имя"
+					minlength="2"
+					maxlength="20"
+					required /><br />
+				<span class="error__name"></span><br />
+
+				<label for="userEmail">Email:</label><br />
+				<input type="email" id="userEmail" placeholder="Почта"
+				pattern=/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i; required /><br />
+				<span class="error__mail"></span><br />
+
+				<label for="userAge">Возраст:</label><br />
+				<input
+					type="number"
+					id="userAge"
+					placeholder="Возраст"
+					max="110"
+					required /><br />
+				<span class="error__age"></span><br />
+
+				<label>Пол:</label>
+				<br />
+				<input
+					type="radio"
+					id="sexm"
+					name="sex"
+					value="m"
+					required />
+				<label for="sexm">Мужской </label><br />
+				<input
+					type="radio"
+					id="sexf"
+					name="sex"
+					value="f"
+					required />
+				<label for="sexf">Женский </label><br />
+				<span class="error__sex"></span><br />
+
+				<label for="profession">Профессия:</label><br />
+				<select
+					name="userProfi"
+					id="profession"
+					required>
+					<option value="not"></option>
+					<option value="doctor">Врач</option>
+					<option value="programmer">Программист</option>
+					<option value="teacher">Учитель</option>
+					<option value="designer">Дизайнер</option>
+					<option value="engineer">Инженер</option>
+					<option value="salesman">Продавец</option>
+					<option value="other">Другое</option></select
+				><br />
+				<span class="error__profi"></span><br />
+
+				<label for="userPass">Введите пароль:</label><br />
+				<input id="userPass" type="password"
+				pattern=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/; placeholder="Пароль"
+				minlength="8" required /><br />
+				<span class="error__pass"></span><br />
+
+				<label for="userPassTwo">Повторите пароль:</label><br />
+				<input id="userPassTwo" type="password" pattern=
+				/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/; placeholder="Пароль"
+				minlength="8" required /><br />
+				<span class="error__passTwo"></span><br />
+
+				<input
+					type="checkbox"
+					required />Согласен на обработку персональных данных<br />
+				<span class="error__agree"></span><br />
+
+				<button type="submit">Отправить</button>
+			</form>
+		</section>
+		<script src="/week-16/index.js"></script>
+	</body>
+</html>
