@@ -1,0 +1,76 @@
+body {
+    font-family: Montserrat;
+    color: #0f0266f4;
+}
+
+h1,
+h2{
+    padding-left: 2vw;
+    text-align: center;
+}
+
+.tasklist__add {
+    display: flex;
+    justify-content: center;
+    height: 7vw;
+}
+
+.task__input {
+    border-color: #ffb5e6f4;
+    margin: 2vw;
+    font-size: 2vw;
+}
+
+.add__button {
+    width: 18vw;
+    margin: 2vw;
+    background-color: #ffb5e6f4;
+    border-color: #ffb5e6f4;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.taskslist {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.tasklist__state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vw;
+}
+
+.state {
+    font-size: 3vw;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.clear__button {
+    display: flex;
+    justify-content: center;
+}
+
+.button__item {
+    width: 18vw;
+    background-color: #ffb5e6f4;
+    border-color: #ffb5e6f4;
+    height: 5vw;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.taskDiv {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: 3vw;
+}
+
+.newElement {
+    list-style: none;
+}
