@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.superheroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 25vw;
+    margin: 2vw;
+    border: 2px solid black;
+    font-family: Pacifico;
+}
+
+.nameHero,
+.universeHero,
+.alteregoHero,
+.occupationHero,
+.friendsHero,
+.superpowersHero {
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.nameHero{
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.urlHero {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
