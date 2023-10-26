@@ -1,0 +1,17 @@
+.newBody {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: 2vw;
+}
+
+.titlePost {
+     font-size: 3vw;
+     margin: 2vw;
+     color: blueviolet;
+}
+
+.bodyPost {
+     font-size: 1.5vw;
+     margin: 2vw;
+}

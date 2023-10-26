@@ -1,0 +1,41 @@
+h1 {
+     text-align: center;
+}
+
+.add__post {
+     background-color: #f16ffcf4;
+     border: 1px solid #f16ffcf4;
+     border-radius: 1vw;
+     margin: 2vw;
+     padding: 1vw;
+     font-size: 1.5vw;
+}
+
+.inputs {
+     display: flex;
+     justify-content: center;
+}
+
+#title,
+#text {
+     margin: 2vw;
+     border: 1px solid #f16ffcf4;
+     border-radius: 1vw;
+     font-size: 1.5vw;
+}
+
+.posts {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+
+.titlePost {
+     font-size: 3vw;
+     font-weight: 800;
+     color: #f16ffcf4;
+}
+
+.textPost {
+     font-size: 2.5vw;
+}
